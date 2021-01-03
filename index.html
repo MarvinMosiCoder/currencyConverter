@@ -1,13 +1,91 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <script src="https://kit.fontawesome.com/3f18700557.js" crossorigin="anonymous"></script>
+	
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
+
   <body>
 
-    <h1>My Website</h1>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Currency Converter</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <br>
+    <div class="container">
+	  <div class="panel panel-default">
+		<div class="panel-body">
+		  <div class="_customRow row">
+			<div class="col-lg-6 col-lg-offset-4">
+			  <h3>Currency Converter</h3>
+			  <form id="form_two" class="form_one">
+				<select class="form-select" id="select_one" name="select_one">
+				  <i class="fab fa-peso"></i><option value="Philippines">Philippine Peso</option>
+				  <option value="Dinar">Kuwaiti Dinar</option>
+				  <option value="USA">USA Dollor</option>
+				  <option value="Saudi">Saudi Riyal</option>
+				</select>
+				<input type="number" id="input_one" class="_customInput form-control form-control-lg">
+			  </form>
+			  <form class="form_two" id="form_two">
+				<select class="form-select" name="select_two" id="select_two">
+				  <option value="Philippines">Philippine Peso</option>
+				  <option value="Dinar">Kuwaiti Dinar</option>
+				  <option value="USA">USA Dollor</option>
+				  <option value="Saudi">Saudi Riyal</option>
+				</select>
+				<input type="number" id="input_two" class="_customInput form-control form-control-lg">
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
+    </div><!-- /.container -->
 
-    <p>This is my first website</p>
-
+    
+	
+	<script src="js/main.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
-</html>		
+</html>

@@ -1,4 +1,31 @@
-body
-{
-  font-size: 40pt;
+
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.form-select{
+  background-color:#f4f4f4;
+  padding:10px;
+  border-radius:5px;
+  padding-right:10px;
+}
+
+.form_one{
+  display:flex;
+  margin-bottom: 20px;
+}
+.form_two {
+  display:flex;
+}
+
+._customInput {
+  width:200px;
+  margin:5px 20px;
+}
+._customRow{
+  margin-top: 50px;
 }
